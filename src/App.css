@@ -1,0 +1,130 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Large tablet styles (1024px and below) */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 35px;
+  }
+
+  .cart-items {
+    gap: 18px;
+    padding: 18px;
+  }
+}
+
+/* Tablet styles (768px and below) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+  }
+
+  .app {
+    padding: 15px;
+  }
+
+  .cart-items {
+    gap: 15px;
+    padding: 15px;
+  }
+}
+
+/* Mobile landscape (640px and below) */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2.4rem;
+    margin-bottom: 25px;
+  }
+
+  .app {
+    padding: 12px;
+  }
+
+  .cart-items {
+    gap: 12px;
+    padding: 12px;
+  }
+}
+
+/* Mobile portrait (480px and below) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+  .app {
+    padding: 10px;
+    min-height: 100vh;
+  }
+
+  .cart-items {
+    gap: 10px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Small mobile (360px and below) */
+@media (max-width: 360px) {
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    padding: 0 5px;
+  }
+
+  .app {
+    padding: 8px;
+  }
+
+  .cart-items {
+    gap: 8px;
+    padding: 8px;
+  }
+}

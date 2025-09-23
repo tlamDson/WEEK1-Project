@@ -1,0 +1,81 @@
+import { assets } from "../assets/asset";
+
+export const cartData = [
+  {
+    id: 1,
+    src: assets.india,
+    title: "Mysttik Masala",
+    subtitle: "Indian",
+    link: "https://indianfoodny.com/lander?oref=https%3A%2F%2Fheroic-pixie-6d7f91.netlify.app%2F",
+  },
+  {
+    id: 2,
+    src: assets.mexican,
+    title: "Birria_Landia",
+    subtitle: "Mexican",
+    link: "https://thebirrialandia.com/menu/",
+  },
+  {
+    id: 3,
+    src: assets.chinese,
+    title: "Ling's Sweet Mini Cakes",
+    subtitle: "Chinese",
+    link: "https://canalstreet.market/",
+  },
+  {
+    id: 4,
+    src: assets.jamaican,
+    title: "Jerk Pan",
+    subtitle: "Jamaican",
+    link: "https://www.allmenus.com/ny/new-york/360888-jerk-pan/menu/",
+  },
+  {
+    id: 5,
+    src: assets.middle_eastern,
+    title: "The Halal Guys",
+    subtitle: "Middle Eastern",
+    link: "https://www.thelittleegypt.com/menu",
+  },
+  {
+    id: 6,
+    src: assets.ethiopian,
+    title: "Makina Cafe",
+    subtitle: "Ethiopian",
+    link: "https://makinacafenyc.com/",
+  },
+  {
+    id: 7,
+    src: assets.tibetan,
+    title: "Mom's Mono",
+    subtitle: "Tibetan",
+    link: "https://www.restaurantji.com/ny/jackson-heights/moms-momo-/menu/",
+  },
+  {
+    id: 8,
+    src: assets.greek,
+    title: "Uncle Gussy's",
+    subtitle: "Greek",
+    link: "https://unclegussys.com/menus/",
+  },
+  {
+    id: 9,
+    src: assets.greek_1,
+    title: "King Souvlaki of Astoria",
+    subtitle: "Greek",
+    link: "https://kingsouvlakinyc.com/",
+  },
+  {
+    id: 10,
+    src: assets.vegetarian,
+    title: "NY Dosas",
+    subtitle: "Vegetarian",
+    link: "https://nydosas.com/menu/",
+  },
+  {
+    id: 11,
+    src: assets.bangladeshi,
+    title: "Tong",
+    subtitle: "Bangladeshi",
+    link: "https://www.facebook.com/Bangladeshistreetfoods/",
+  },
+];
